@@ -1,0 +1,19 @@
+2024-10-29T05:38:44+00:00 ERROR API error: Array
+(
+    [url] => https://api-m.paypal.com/v1/oauth2/token
+    [method] => POST
+    [http_status] => 400
+    [request] => Array
+(
+    [grant_type] => authorization_code
+    [code] => C21AAPFtJShk-aT_JODzbNpB1vlcSZNfrSNMVwNKHs6PVZV1iZ39D1CyEtWQfEiyJUccMvb0BDVs2yrPwEhujlV1G56A3g_BQ
+    [code_verifier] => Hs6WkkYnG6aRAjwTmnfRKQl1aWQyj3ZEjaXY6PJoxMMCnb43jCDgKMw2NxUUKZz0
+)
+
+    [error] => Array
+        (
+            [error] => invalid_grant
+            [error_description] => Code verifier does not match
+        )
+
+)
